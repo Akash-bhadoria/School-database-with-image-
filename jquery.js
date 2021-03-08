@@ -3,7 +3,7 @@ $(document).ready(function() {
     var countryid=$(this).val();
     $.ajax({
       method:"POST",
-      url:"ajax.php",
+      url:".php",
       data:{id:countryid},
       dataType:"html",
       success:function(data){
